@@ -1,0 +1,30 @@
+.background {
+    background-image: url('../img/2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    /* Dark overlay for better text readability */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.content {
+    position: relative;
+    color: white;
+    /* White text for contrast */
+    z-index: 1;
+    text-align: center;
+    padding: 2rem;
+}
